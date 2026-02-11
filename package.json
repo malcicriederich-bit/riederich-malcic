@@ -1,18 +1,17 @@
 {
   "name": "riederich",
-  "type": "module",
   "version": "0.0.1",
+  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "preview": "astro preview"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^12.6.12",
     "astro": "^5.17.1"
   },
-  "devDependencies": {
-    "wrangler": "^4.63.0"
+  "engines": {
+    "node": ">=18"
   }
 }
